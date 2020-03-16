@@ -45,21 +45,21 @@ Cuide-se e cuide dos seus. Compartilhe a mensagem. Fiquemos em casa, ainda há t
 
 \#QuarentenaJa
 
-Texto completo e atualizado (se necessário) em http://www.quarentenaja.com.br
+Texto completo e atualizado (se necessário) em <http://www.quarentenaja.com.br> ou <https://dyokomizo.github.io/quarentenaja/>
 
-1. World Bank, https://data.worldbank.org/country/italy
-2. Istituto Nazionale di Statistica, https://www.istat.it/en/archivio/140877
-3. Johns Hopkins Corona Virus Resource Center, https://coronavirus.jhu.edu/map.html
-4. World o Meter (mantém histórico dos dados da Johns Hopkins), https://www.worldometers.info/coronavirus/country/italy/
-5. CNBC, https://www.cnbc.com/2020/03/03/italy-to-spend-3point6-billion-euros-to-help-virus-hit-economy.html
+1. World Bank, <https://data.worldbank.org/country/italy>
+2. Istituto Nazionale di Statistica, <https://www.istat.it/en/archivio/140877>
+3. Johns Hopkins Corona Virus Resource Center, <https://coronavirus.jhu.edu/map.html>
+4. World o Meter (mantém histórico dos dados da Johns Hopkins), <https://www.worldometers.info/coronavirus/country/italy/>
+5. CNBC, <https://www.cnbc.com/2020/03/03/italy-to-spend-3point6-billion-euros-to-help-virus-hit-economy.html>
 6. A progressão dos casos nos dois países [3 e 4]:
    Brasil (desde 06/Mar):  019  025  025  034  052  077  150  150  162  200 [7, divulgado pelo UOL, pode não estar nos demais sites ainda, esse número foi atualizado duas vezes hoje, em 15/Mar]
    Itália (desde 15/Fev):  003  003  003  003  003  004  019  075  152  221
-7. UOL, https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/03/15/casos-confirmados-coronavirus-brasil-ministerio.htm
-8. World Bank, https://data.worldbank.org/indicator/SH.MED.BEDS.ZS
-9. World Health Organization, https://apps.who.int/gho/data/node.imr.WHS9_88?lang=en
-10. G1, https://g1.globo.com/monitor-da-violencia/noticia/2020/02/14/numero-de-assassinatos-cai-19percent-no-brasil-em-2019-e-e-o-menor-da-serie-historica.ghtml
-11. Ministério da Saúde, http://maismedicos.gov.br/images/PDF/2020_03_13_Boletim-Epidemiologico-05.pdf
+7. UOL, <https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/03/15/casos-confirmados-coronavirus-brasil-ministerio.htm>
+8. World Bank, <https://data.worldbank.org/indicator/SH.MED.BEDS.ZS>
+9. World Health Organization, <https://apps.who.int/gho/data/node.imr.WHS9_88?lang=en>
+10. G1, <https://g1.globo.com/monitor-da-violencia/noticia/2020/02/14/numero-de-assassinatos-cai-19percent-no-brasil-em-2019-e-e-o-menor-da-serie-historica.ghtml>
+11. Ministério da Saúde, <http://maismedicos.gov.br/images/PDF/2020_03_13_Boletim-Epidemiologico-05.pdf>
 12. População da Itália 60,4 milhões de habitantes em 2018 (59,5 milhões em 2012 para comparar com o próximo número) [1].
 
     Mortes anuais 613.520 em 2012, dados mais recentes que encontrei [2].
@@ -79,7 +79,7 @@ Texto completo e atualizado (se necessário) em http://www.quarentenaja.com.br
       14/Mar  175  2a maior causa de morte
       15/Mar  368  1a maior causa de morte
 
-13. IBGE, https://sidra.ibge.gov.br/tabela/2681
-14. O Globo, https://oglobo.globo.com/sociedade/em-meio-pandemia-de-coronavirus-brasil-precisaria-de-3200-novos-leitos-de-uti-no-sus-24299306
-             https://webcache.googleusercontent.com/search?q=cache:a8k3kzh8eJ8J:https://oglobo.globo.com/sociedade/em-meio-pandemia-de-coronavirus-brasil-precisaria-de-3200-novos-leitos-de-uti-no-sus-24299306+&cd=1&hl=pt-BR&ct=clnk&gl=br
-15. World o Meter (mantém histórico dos dados da Johns Hopkins), https://www.worldometers.info/coronavirus/country/south-korea/
+13. IBGE, <https://sidra.ibge.gov.br/tabela/2681>
+14. O Globo, <https://oglobo.globo.com/sociedade/em-meio-pandemia-de-coronavirus-brasil-precisaria-de-3200-novos-leitos-de-uti-no-sus-24299306>
+             <https://webcache.googleusercontent.com/search?q=cache:a8k3kzh8eJ8J:https://oglobo.globo.com/sociedade/em-meio-pandemia-de-coronavirus-brasil-precisaria-de-3200-novos-leitos-de-uti-no-sus-24299306+&cd=1&hl=pt-BR&ct=clnk&gl=br>
+15. World o Meter (mantém histórico dos dados da Johns Hopkins), <https://www.worldometers.info/coronavirus/country/south-korea/>
