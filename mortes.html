@@ -6,8 +6,13 @@
     <script type="text/javascript" charset="UTF-8" src="mortes.js"></script>
   </head>
   <body>
-    <div style="width: 100%; overflow: hidden;">
-    <div style="float: left;">
+    <div>
+      <label for="semana">Semana:</label>
+      <select id="semana" name="semana" onchange="atualizarSemana()"></select>
+      <br>
+      <textarea id="causas" cols="70" rows="14" readonly style="overflow:hidden"></textarea>
+    </div>
+    <div>
       <style>
         #svg-map path { fill:#0094d9 }
         #svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
@@ -332,19 +337,12 @@
         </g>
       </svg>
     </div> <!-- https://github.com/LucasBassetti/mapa-brasil-svg -->
-    <div style="margin-left: 940px; margin-top: 100px">
+    <div>
       <p>Mortes por COVID-19, por estado (fonte: <a href="https://github.com/wcota/covid19br">covid19br</a>) e comparando com as maiores causas de morte (m&eacute;dia por semana em 2019, fonte: <a href="http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/obt10uf.def">SIM</a>) projetadas no mapa do Brasil (fonte: <a href="https://github.com/LucasBassetti/mapa-brasil-svg">mapa-brasil-svg</a>).</p>
       <p>Causas de morte s&atilde;o identificadas pelo seu c&oacute;digo CID-BR-10, entre colchetes.</p>
       <p>Colora&ccedil;&atilde;o de cada estado variam do mais claro ao mais escuro, conforme a COVID-19 torna-se de uma das maiores causas de morte naquele estado e naquela semana.</p>
       <p>Selecione o estado no mapa para mais detalhes sobre as causas de morte naquela semana.</p>
       <p>Licença de uso: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
-    </div>
-    <div style="margin-left: 940px; margin-top: 500px">
-      <label for="semana">Semana:</label>
-      <select id="semana" name="semana" onchange="atualizarSemana()"></select>
-      <br>
-      <textarea id="causas" cols="70" rows="14" readonly style="overflow:hidden"></textarea>
-    </div>
     </div>
     <script type="text/javascript">
       var estado = "SP";
