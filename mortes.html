@@ -2,15 +2,21 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Mortes por COVID-19 por Semana Epidemiol&oacute;gica no Brasil</title>
+    <title>Mortes por COVID-19 por Semana Epidemiol&oacute;gica no Brasil vs Demais Causas de Morte</title>
     <script type="text/javascript" charset="UTF-8" src="mortes.js"></script>
   </head>
   <body>
+    <h2>Mortes por COVID-19 por Semana Epidemiol&oacute;gica no Brasil vs Demais Causas de Morte</h2>
     <div>
-      <label for="semana">Semana:</label>
-      <select id="semana" name="semana" onchange="atualizarSemana()"></select>
+      <label for="semana">Semana iniciada em:</label>
+      <select id="semana" name="semana" onchange="atualizarSemana()" autofocus="true"></select>
       <br>
-      <textarea id="causas" cols="70" rows="14" readonly style="overflow:hidden"></textarea>
+      (Selecione a semana e use as teclas "para cima" e "para baixo" do teclado para navegar entre as semanas mais facilmente.)
+      <br>
+      <br>
+      <textarea id="causas" cols="110" rows="15" readonly style="overflow:auto; font-size: 14px"></textarea>
+      <br>
+      <br>
     </div>
     <div>
       <style>
@@ -338,6 +344,24 @@
       </svg>
     </div> <!-- https://github.com/LucasBassetti/mapa-brasil-svg -->
     <div>
+      <br>
+      <table>
+        <tr>
+          <td style="background-color:#ffe5e5; width:20px">&nbsp;</td>
+          <td>D&eacute;cima causa de morte ou inferior</td>
+        </tr>
+        <tr>
+          <td style="background-color:#ff0000">&nbsp;</td>
+          <td>Maior causa de morte</td>
+        </tr>
+        <tr>
+          <td style="background-color:#000000">&nbsp;</td>
+          <td>Maior que as outras nove causas de morte ou superior</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <br>
       <p>Mortes por COVID-19, por estado (fonte: <a href="https://github.com/wcota/covid19br">covid19br</a>) e comparando com as maiores causas de morte (m&eacute;dia por semana em 2019, fonte: <a href="http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/obt10uf.def">SIM</a>) projetadas no mapa do Brasil (fonte: <a href="https://github.com/LucasBassetti/mapa-brasil-svg">mapa-brasil-svg</a>).</p>
       <p>Causas de morte s&atilde;o identificadas pelo seu c&oacute;digo CID-BR-10, entre colchetes.</p>
       <p>Colora&ccedil;&atilde;o de cada estado variam do mais claro ao mais escuro, conforme a COVID-19 torna-se de uma das maiores causas de morte naquele estado e naquela semana.</p>
@@ -352,7 +376,7 @@
           var o = document.createElement("option");
           o.text = e;
           o.value = i;
-          if (e == "2021-08-22") {
+          if (e == "2021-08-29") {
             o.selected = true;
           }
           s.appendChild(o);
@@ -384,7 +408,7 @@
         var semana = document.getElementById("semana").value;
 
         var mc = maioresCausas(uf, semana);
-        var s = "Maiores causas de morte em " + uf + "\r\n\r\n";
+        var s = "Dez maiores causas de morte em " + uf + " na semana iniciada em " + document.getElementById("semana").selectedOptions[0].text + ":\r\n\r\n";
         if (mc.outras.length == cid.causas.length) {
           s += mc.mortes + " mortes por COVID-19, mais que todas as outras causas somadas.\r\n\r\n";
         } else if (mc.outras.length > 1) {
