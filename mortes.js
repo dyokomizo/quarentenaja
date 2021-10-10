@@ -33,5 +33,11 @@ function porMaisMortes(a, b) {
   if (a.mortes < b.mortes) {
     return +1;
   }
+  if (a.causa == "COVID-19") {
+     return -1;
+  }
+  if (b.causa == "COVID-19") {
+     return +1;
+  }
   return 0;
 }
